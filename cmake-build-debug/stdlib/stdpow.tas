@@ -1,0 +1,5 @@
+# Collecting input
+.> 'val1 'val2 -val2 *val1 =temp ,pow
+
+# Multiplying a number by the original number val2-1 times.
+^val1 ?pow *val2 *val1 *temp &stdmult *val1 -val2 ,pow

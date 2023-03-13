@@ -1,0 +1,5 @@
+# Collecting input values
+.> 'val1 'val2 -val2 *val1 =temp ,multiply
+
+# Adding temp to val1 until val2 is 0
+^val1 ?multiply *val2 *temp =val1 *val1 -val2 ,multiply
